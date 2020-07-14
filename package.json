@@ -1,0 +1,35 @@
+{
+  "name": "tdd-first-code-after",
+  "description": "",
+  "version": "0.0.1",
+  "author": "todorescu <todorescu.consulting@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "jest --rootDir=src/app",
+    "test_watch": "jest --rootDir=src/app/tests --watchAll",
+    "test_file": "jest --rootDir=src/app/tests/page-builder/ --runTestsByPath=PageBuilder.test.js"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "babel-core": "^7.0.0-0",
+    "babel-jest": "^25.3.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^3.6.0",
+    "file-loader": "^1.1.4",
+    "jest": "^26.1.0",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^4.43.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
